@@ -1,0 +1,25 @@
+{
+  "name": "aetheric-engine-client",
+  "version": "1.0.0",
+  "description": "TCP client for Aetheric Engine with WebSocket monitoring interface",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "validate": "node validator.js",
+    "dev": "nodemon server.js",
+    "stats": "node cli.js stats",
+    "clear": "node cli.js clear",
+    "cli": "node cli.js"
+  },
+  "keywords": ["aetheric-engine", "tcp-client", "websocket", "sqlite"],
+  "author": "AI-Assisted",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "sqlite3": "^5.1.6",
+    "ws": "^8.14.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
