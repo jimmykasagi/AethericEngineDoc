@@ -1,5 +1,5 @@
 // AI-Assisted: Utility to process an ASCII line into header, size, and payload buffers
-function processAsciiLine(line) {
+function processAsciiMessage(line) {
   let payload = line.trim();
   if (payload.startsWith("$")) payload = payload.slice(1);
   if (payload.endsWith(";")) payload = payload.slice(0, -1);
@@ -16,7 +16,6 @@ function processAsciiLine(line) {
     `(decimal: ${payloadBuf.length})`
   );
   console.log("Payload:", payloadBuf.toString("hex"));
-  console.log("Payload (ASCII):", payload);
   console.log("---");
 
   return {
@@ -28,6 +27,20 @@ function processAsciiLine(line) {
   };
 }
 
+// AI-Assisted: Process binary message from AE
+function processBinaryMessage(buffer) {
+  if (buffer[0] !== 0xaa) {
+    throw new Error("Invalid binary header");
+  }
+  const size = buffer.readUIntBE(1, 5);
+  const payload = buffer.slice(6, 6 + size);
+
+  console.log("Size:", size);
+  console.log("Payload:", payload.toString("hex"));
+  return { size, payload };
+}
+
 module.exports = {
-  processAsciiLine,
+  processAsciiMessage,
+  processBinaryMessage,
 };

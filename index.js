@@ -1,7 +1,7 @@
 // AI-Assisted: TCP client for Aetheric Engine
 require("dotenv").config();
 const net = require("net");
-const { processAsciiLine } = require("./utils.js");
+const { processAsciiMessage, processBinaryMessage } = require("./utils.js");
 
 const SERVER_IP = process.env.SERVER_IP;
 const SERVER_PORT = parseInt(process.env.SERVER_PORT, 10);
@@ -20,14 +20,14 @@ client.on("data", (data) => {
   // Check if data is ASCII (printable characters, delimited by $ and ;) or binary (header 0xAA)
   if (data[0] === 0xaa) {
     console.log("Received binary message");
+    processBinaryMessage(data);
   } else {
     // Simple ASCII check: all bytes are printable or whitespace
     const ascii = data.toString("ascii");
     const isAscii = /^[\x20-\x7E\r\n\t$;]+$/.test(ascii);
     if (isAscii) {
       console.log("Received ASCII message");
-      processAsciiLine(data.toString("utf8"));
-      //   console.log(data.toString("utf8"));
+      processAsciiMessage(data.toString("utf8"));
     } else {
       console.log("Received unknown message type");
     }
