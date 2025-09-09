@@ -1,0 +1,3730 @@
+{
+  "timestamp": "2025-09-09T09:37:48.112Z",
+  "summary": {
+    "totalMessages": 125,
+    "standardHeaders": 2,
+    "nonStandardHeaders": 123,
+    "uniqueHeaders": 99
+  },
+  "findings": {
+    "headerDistribution": {},
+    "sizePatterns": [
+      {
+        "id": 151,
+        "declaredSize": 859,
+        "actualSize": 859,
+        "ratio": 1
+      },
+      {
+        "id": 152,
+        "declaredSize": 92,
+        "actualSize": 92,
+        "ratio": 1
+      },
+      {
+        "id": 153,
+        "declaredSize": 1553,
+        "actualSize": 1553,
+        "ratio": 1
+      },
+      {
+        "id": 154,
+        "declaredSize": 2992,
+        "actualSize": 2992,
+        "ratio": 1
+      },
+      {
+        "id": 155,
+        "declaredSize": 2863,
+        "actualSize": 2863,
+        "ratio": 1
+      },
+      {
+        "id": 156,
+        "declaredSize": 1374,
+        "actualSize": 1374,
+        "ratio": 1
+      },
+      {
+        "id": 157,
+        "declaredSize": 7350,
+        "actualSize": 7350,
+        "ratio": 1
+      },
+      {
+        "id": 158,
+        "declaredSize": 3743,
+        "actualSize": 3743,
+        "ratio": 1
+      },
+      {
+        "id": 159,
+        "declaredSize": 7453,
+        "actualSize": 7453,
+        "ratio": 1
+      },
+      {
+        "id": 160,
+        "declaredSize": 2050,
+        "actualSize": 2050,
+        "ratio": 1
+      },
+      {
+        "id": 161,
+        "declaredSize": 6706,
+        "actualSize": 6706,
+        "ratio": 1
+      },
+      {
+        "id": 162,
+        "declaredSize": 7646,
+        "actualSize": 7646,
+        "ratio": 1
+      },
+      {
+        "id": 163,
+        "declaredSize": 5076,
+        "actualSize": 5076,
+        "ratio": 1
+      },
+      {
+        "id": 164,
+        "declaredSize": 4551,
+        "actualSize": 4551,
+        "ratio": 1
+      },
+      {
+        "id": 165,
+        "declaredSize": 6220,
+        "actualSize": 6220,
+        "ratio": 1
+      },
+      {
+        "id": 166,
+        "declaredSize": 1490,
+        "actualSize": 1490,
+        "ratio": 1
+      },
+      {
+        "id": 167,
+        "declaredSize": 3937,
+        "actualSize": 3937,
+        "ratio": 1
+      },
+      {
+        "id": 168,
+        "declaredSize": 5740,
+        "actualSize": 5740,
+        "ratio": 1
+      },
+      {
+        "id": 169,
+        "declaredSize": 498,
+        "actualSize": 498,
+        "ratio": 1
+      },
+      {
+        "id": 170,
+        "declaredSize": 4691,
+        "actualSize": 4691,
+        "ratio": 1
+      },
+      {
+        "id": 171,
+        "declaredSize": 6194,
+        "actualSize": 6194,
+        "ratio": 1
+      },
+      {
+        "id": 172,
+        "declaredSize": 4127,
+        "actualSize": 4127,
+        "ratio": 1
+      },
+      {
+        "id": 173,
+        "declaredSize": 4477,
+        "actualSize": 4477,
+        "ratio": 1
+      },
+      {
+        "id": 174,
+        "declaredSize": 2176,
+        "actualSize": 2176,
+        "ratio": 1
+      },
+      {
+        "id": 175,
+        "declaredSize": 579,
+        "actualSize": 579,
+        "ratio": 1
+      },
+      {
+        "id": 176,
+        "declaredSize": 7606,
+        "actualSize": 7606,
+        "ratio": 1
+      },
+      {
+        "id": 177,
+        "declaredSize": 4684,
+        "actualSize": 4684,
+        "ratio": 1
+      },
+      {
+        "id": 178,
+        "declaredSize": 3511,
+        "actualSize": 3511,
+        "ratio": 1
+      },
+      {
+        "id": 179,
+        "declaredSize": 2974,
+        "actualSize": 2974,
+        "ratio": 1
+      },
+      {
+        "id": 180,
+        "declaredSize": 3654,
+        "actualSize": 3654,
+        "ratio": 1
+      },
+      {
+        "id": 181,
+        "declaredSize": 3192,
+        "actualSize": 3192,
+        "ratio": 1
+      },
+      {
+        "id": 182,
+        "declaredSize": 2486,
+        "actualSize": 2486,
+        "ratio": 1
+      },
+      {
+        "id": 183,
+        "declaredSize": 551,
+        "actualSize": 551,
+        "ratio": 1
+      },
+      {
+        "id": 184,
+        "declaredSize": 402,
+        "actualSize": 402,
+        "ratio": 1
+      },
+      {
+        "id": 185,
+        "declaredSize": 2172,
+        "actualSize": 2172,
+        "ratio": 1
+      },
+      {
+        "id": 186,
+        "declaredSize": 5210,
+        "actualSize": 5210,
+        "ratio": 1
+      },
+      {
+        "id": 187,
+        "declaredSize": 3029,
+        "actualSize": 3029,
+        "ratio": 1
+      },
+      {
+        "id": 188,
+        "declaredSize": 7132,
+        "actualSize": 7132,
+        "ratio": 1
+      },
+      {
+        "id": 189,
+        "declaredSize": 6648,
+        "actualSize": 6648,
+        "ratio": 1
+      },
+      {
+        "id": 190,
+        "declaredSize": 2083,
+        "actualSize": 2083,
+        "ratio": 1
+      },
+      {
+        "id": 191,
+        "declaredSize": 3706,
+        "actualSize": 3706,
+        "ratio": 1
+      },
+      {
+        "id": 192,
+        "declaredSize": 7731,
+        "actualSize": 7731,
+        "ratio": 1
+      },
+      {
+        "id": 193,
+        "declaredSize": 3243,
+        "actualSize": 3243,
+        "ratio": 1
+      },
+      {
+        "id": 194,
+        "declaredSize": 627,
+        "actualSize": 627,
+        "ratio": 1
+      },
+      {
+        "id": 195,
+        "declaredSize": 4442,
+        "actualSize": 4442,
+        "ratio": 1
+      },
+      {
+        "id": 196,
+        "declaredSize": 3569,
+        "actualSize": 3569,
+        "ratio": 1
+      },
+      {
+        "id": 197,
+        "declaredSize": 6388,
+        "actualSize": 6388,
+        "ratio": 1
+      },
+      {
+        "id": 198,
+        "declaredSize": 4885,
+        "actualSize": 4885,
+        "ratio": 1
+      },
+      {
+        "id": 199,
+        "declaredSize": 5837,
+        "actualSize": 5837,
+        "ratio": 1
+      },
+      {
+        "id": 200,
+        "declaredSize": 5690,
+        "actualSize": 5690,
+        "ratio": 1
+      },
+      {
+        "id": 201,
+        "declaredSize": 4321,
+        "actualSize": 4321,
+        "ratio": 1
+      },
+      {
+        "id": 202,
+        "declaredSize": 7712,
+        "actualSize": 7712,
+        "ratio": 1
+      },
+      {
+        "id": 203,
+        "declaredSize": 5174,
+        "actualSize": 5174,
+        "ratio": 1
+      },
+      {
+        "id": 204,
+        "declaredSize": 6502,
+        "actualSize": 6502,
+        "ratio": 1
+      },
+      {
+        "id": 205,
+        "declaredSize": 3892,
+        "actualSize": 3892,
+        "ratio": 1
+      },
+      {
+        "id": 206,
+        "declaredSize": 5301,
+        "actualSize": 5301,
+        "ratio": 1
+      },
+      {
+        "id": 207,
+        "declaredSize": 7799,
+        "actualSize": 7799,
+        "ratio": 1
+      },
+      {
+        "id": 208,
+        "declaredSize": 2693,
+        "actualSize": 2693,
+        "ratio": 1
+      },
+      {
+        "id": 209,
+        "declaredSize": 2661,
+        "actualSize": 2661,
+        "ratio": 1
+      },
+      {
+        "id": 210,
+        "declaredSize": 499,
+        "actualSize": 499,
+        "ratio": 1
+      },
+      {
+        "id": 211,
+        "declaredSize": 3533,
+        "actualSize": 3533,
+        "ratio": 1
+      },
+      {
+        "id": 212,
+        "declaredSize": 2861,
+        "actualSize": 2861,
+        "ratio": 1
+      },
+      {
+        "id": 213,
+        "declaredSize": 2387,
+        "actualSize": 2387,
+        "ratio": 1
+      },
+      {
+        "id": 214,
+        "declaredSize": 61,
+        "actualSize": 61,
+        "ratio": 1
+      },
+      {
+        "id": 215,
+        "declaredSize": 5559,
+        "actualSize": 5559,
+        "ratio": 1
+      },
+      {
+        "id": 216,
+        "declaredSize": 6747,
+        "actualSize": 6747,
+        "ratio": 1
+      },
+      {
+        "id": 217,
+        "declaredSize": 7752,
+        "actualSize": 7752,
+        "ratio": 1
+      },
+      {
+        "id": 218,
+        "declaredSize": 6304,
+        "actualSize": 6304,
+        "ratio": 1
+      },
+      {
+        "id": 219,
+        "declaredSize": 4415,
+        "actualSize": 4415,
+        "ratio": 1
+      },
+      {
+        "id": 220,
+        "declaredSize": 1529,
+        "actualSize": 1529,
+        "ratio": 1
+      },
+      {
+        "id": 221,
+        "declaredSize": 5170,
+        "actualSize": 5170,
+        "ratio": 1
+      },
+      {
+        "id": 222,
+        "declaredSize": 6007,
+        "actualSize": 6007,
+        "ratio": 1
+      },
+      {
+        "id": 223,
+        "declaredSize": 2552,
+        "actualSize": 2552,
+        "ratio": 1
+      },
+      {
+        "id": 224,
+        "declaredSize": 3041,
+        "actualSize": 3041,
+        "ratio": 1
+      },
+      {
+        "id": 225,
+        "declaredSize": 6007,
+        "actualSize": 6007,
+        "ratio": 1
+      },
+      {
+        "id": 226,
+        "declaredSize": 6996,
+        "actualSize": 6996,
+        "ratio": 1
+      },
+      {
+        "id": 227,
+        "declaredSize": 1735,
+        "actualSize": 1735,
+        "ratio": 1
+      },
+      {
+        "id": 228,
+        "declaredSize": 3934,
+        "actualSize": 3934,
+        "ratio": 1
+      },
+      {
+        "id": 229,
+        "declaredSize": 6093,
+        "actualSize": 6093,
+        "ratio": 1
+      },
+      {
+        "id": 230,
+        "declaredSize": 1021,
+        "actualSize": 1021,
+        "ratio": 1
+      },
+      {
+        "id": 231,
+        "declaredSize": 4819,
+        "actualSize": 4819,
+        "ratio": 1
+      },
+      {
+        "id": 232,
+        "declaredSize": 6114,
+        "actualSize": 6114,
+        "ratio": 1
+      },
+      {
+        "id": 233,
+        "declaredSize": 982,
+        "actualSize": 982,
+        "ratio": 1
+      },
+      {
+        "id": 234,
+        "declaredSize": 2300,
+        "actualSize": 2300,
+        "ratio": 1
+      },
+      {
+        "id": 235,
+        "declaredSize": 7313,
+        "actualSize": 7313,
+        "ratio": 1
+      },
+      {
+        "id": 236,
+        "declaredSize": 7636,
+        "actualSize": 7636,
+        "ratio": 1
+      },
+      {
+        "id": 237,
+        "declaredSize": 5587,
+        "actualSize": 5587,
+        "ratio": 1
+      },
+      {
+        "id": 238,
+        "declaredSize": 7006,
+        "actualSize": 7006,
+        "ratio": 1
+      },
+      {
+        "id": 239,
+        "declaredSize": 6788,
+        "actualSize": 6788,
+        "ratio": 1
+      },
+      {
+        "id": 240,
+        "declaredSize": 4487,
+        "actualSize": 4487,
+        "ratio": 1
+      },
+      {
+        "id": 241,
+        "declaredSize": 4555,
+        "actualSize": 4555,
+        "ratio": 1
+      },
+      {
+        "id": 242,
+        "declaredSize": 2111,
+        "actualSize": 2111,
+        "ratio": 1
+      },
+      {
+        "id": 243,
+        "declaredSize": 1643,
+        "actualSize": 1643,
+        "ratio": 1
+      },
+      {
+        "id": 244,
+        "declaredSize": 4121,
+        "actualSize": 4121,
+        "ratio": 1
+      },
+      {
+        "id": 245,
+        "declaredSize": 6379,
+        "actualSize": 6379,
+        "ratio": 1
+      },
+      {
+        "id": 246,
+        "declaredSize": 2125,
+        "actualSize": 2125,
+        "ratio": 1
+      },
+      {
+        "id": 247,
+        "declaredSize": 5408,
+        "actualSize": 5408,
+        "ratio": 1
+      },
+      {
+        "id": 248,
+        "declaredSize": 6470,
+        "actualSize": 6470,
+        "ratio": 1
+      },
+      {
+        "id": 249,
+        "declaredSize": 3086,
+        "actualSize": 3086,
+        "ratio": 1
+      },
+      {
+        "id": 250,
+        "declaredSize": 2278,
+        "actualSize": 2278,
+        "ratio": 1
+      },
+      {
+        "id": 251,
+        "declaredSize": 6917,
+        "actualSize": 6917,
+        "ratio": 1
+      },
+      {
+        "id": 252,
+        "declaredSize": 7760,
+        "actualSize": 7760,
+        "ratio": 1
+      },
+      {
+        "id": 253,
+        "declaredSize": 5979,
+        "actualSize": 5979,
+        "ratio": 1
+      },
+      {
+        "id": 254,
+        "declaredSize": 121,
+        "actualSize": 121,
+        "ratio": 1
+      },
+      {
+        "id": 255,
+        "declaredSize": 5503,
+        "actualSize": 5503,
+        "ratio": 1
+      },
+      {
+        "id": 256,
+        "declaredSize": 2692,
+        "actualSize": 2692,
+        "ratio": 1
+      },
+      {
+        "id": 257,
+        "declaredSize": 2347,
+        "actualSize": 2347,
+        "ratio": 1
+      },
+      {
+        "id": 258,
+        "declaredSize": 5175,
+        "actualSize": 5175,
+        "ratio": 1
+      },
+      {
+        "id": 259,
+        "declaredSize": 4850,
+        "actualSize": 4850,
+        "ratio": 1
+      },
+      {
+        "id": 260,
+        "declaredSize": 5267,
+        "actualSize": 5267,
+        "ratio": 1
+      },
+      {
+        "id": 261,
+        "declaredSize": 6522,
+        "actualSize": 6522,
+        "ratio": 1
+      },
+      {
+        "id": 262,
+        "declaredSize": 1228,
+        "actualSize": 1228,
+        "ratio": 1
+      },
+      {
+        "id": 263,
+        "declaredSize": 2150,
+        "actualSize": 2150,
+        "ratio": 1
+      },
+      {
+        "id": 264,
+        "declaredSize": 476,
+        "actualSize": 476,
+        "ratio": 1
+      },
+      {
+        "id": 265,
+        "declaredSize": 6791,
+        "actualSize": 6791,
+        "ratio": 1
+      },
+      {
+        "id": 266,
+        "declaredSize": 2363,
+        "actualSize": 2363,
+        "ratio": 1
+      },
+      {
+        "id": 267,
+        "declaredSize": 3865,
+        "actualSize": 3865,
+        "ratio": 1
+      },
+      {
+        "id": 268,
+        "declaredSize": 3156,
+        "actualSize": 3156,
+        "ratio": 1
+      },
+      {
+        "id": 269,
+        "declaredSize": 1167,
+        "actualSize": 1167,
+        "ratio": 1
+      },
+      {
+        "id": 270,
+        "declaredSize": 5905,
+        "actualSize": 5905,
+        "ratio": 1
+      },
+      {
+        "id": 271,
+        "declaredSize": 4207,
+        "actualSize": 4207,
+        "ratio": 1
+      },
+      {
+        "id": 272,
+        "declaredSize": 3398,
+        "actualSize": 3398,
+        "ratio": 1
+      },
+      {
+        "id": 273,
+        "declaredSize": 5451,
+        "actualSize": 5451,
+        "ratio": 1
+      },
+      {
+        "id": 274,
+        "declaredSize": 981,
+        "actualSize": 981,
+        "ratio": 1
+      },
+      {
+        "id": 275,
+        "declaredSize": 6438,
+        "actualSize": 6438,
+        "ratio": 1
+      }
+    ],
+    "contentAnalysis": [
+      {
+        "id": 151,
+        "header": 72,
+        "headerHex": "0x48",
+        "size": 859,
+        "declaredSize": 859,
+        "entropy": "7.799",
+        "patterns": [
+          "36.0% ASCII-like"
+        ],
+        "readableContent": [
+          "h,s6}",
+          "B~^DyP",
+          "MJX -",
+          ";Wq=12",
+          "-]Y-`"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 152,
+        "header": 68,
+        "headerHex": "0x44",
+        "size": 92,
+        "declaredSize": 92,
+        "entropy": "6.233",
+        "patterns": [
+          "37.0% ASCII-like"
+        ],
+        "readableContent": [],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 153,
+        "header": 147,
+        "headerHex": "0x93",
+        "size": 1553,
+        "declaredSize": 1553,
+        "entropy": "7.888",
+        "patterns": [
+          "36.2% ASCII-like"
+        ],
+        "readableContent": [
+          "P>=#d",
+          "lkRmq",
+          "a/oP>[$",
+          "8cZp28"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 154,
+        "header": 52,
+        "headerHex": "0x34",
+        "size": 2992,
+        "declaredSize": 2992,
+        "entropy": "7.942",
+        "patterns": [
+          "36.5% ASCII-like"
+        ],
+        "readableContent": [
+          "jO,x|",
+          "yZybYC (",
+          "Fw3\"=",
+          "iQ<},",
+          "Y<ge+"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 155,
+        "header": 8,
+        "headerHex": "0x8",
+        "size": 2863,
+        "declaredSize": 2863,
+        "entropy": "7.940",
+        "patterns": [
+          "37.2% ASCII-like"
+        ],
+        "readableContent": [
+          "ash{M",
+          "ToSsEWIV",
+          "H;r'4",
+          ">K!&]Z",
+          "<nnXB"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 156,
+        "header": 247,
+        "headerHex": "0xF7",
+        "size": 1374,
+        "declaredSize": 1374,
+        "entropy": "7.829",
+        "patterns": [
+          "36.2% ASCII-like"
+        ],
+        "readableContent": [
+          "3z\"'yv",
+          "dt-!6",
+          ")fRUd"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 157,
+        "header": 232,
+        "headerHex": "0xE8",
+        "size": 7350,
+        "declaredSize": 7350,
+        "entropy": "7.976",
+        "patterns": [
+          "36.2% ASCII-like"
+        ],
+        "readableContent": [
+          "]Jv&Q",
+          "cXe;+",
+          "Ay>yU",
+          "T;S,Pr",
+          "efS*?ig"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 158,
+        "header": 177,
+        "headerHex": "0xB1",
+        "size": 3743,
+        "declaredSize": 3743,
+        "entropy": "7.947",
+        "patterns": [
+          "Contains null sequences",
+          "37.6% ASCII-like"
+        ],
+        "readableContent": [
+          "GA-7>",
+          "9W6cg",
+          "Gf<{\"g",
+          "f9*:~",
+          "VNPwC"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 159,
+        "header": 44,
+        "headerHex": "0x2C",
+        "size": 7453,
+        "declaredSize": 7453,
+        "entropy": "7.972",
+        "patterns": [
+          "37.6% ASCII-like"
+        ],
+        "readableContent": [
+          ",]w6?'4",
+          "+Dv?<",
+          "Lxda#",
+          ">lIUyJ{X@rQ",
+          ",rdif#"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 160,
+        "header": 144,
+        "headerHex": "0x90",
+        "size": 2050,
+        "declaredSize": 2050,
+        "entropy": "7.902",
+        "patterns": [
+          "37.1% ASCII-like"
+        ],
+        "readableContent": [
+          "iTE 8",
+          "5`Nb7",
+          "]a?[\"",
+          "!vi[)E",
+          "c}kF]"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 161,
+        "header": 142,
+        "headerHex": "0x8E",
+        "size": 6706,
+        "declaredSize": 6706,
+        "entropy": "7.972",
+        "patterns": [
+          "37.9% ASCII-like"
+        ],
+        "readableContent": [
+          "7U4y(",
+          "?Q}Og",
+          "SsoQv",
+          "7shE3",
+          " Iye/sG ("
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 162,
+        "header": 228,
+        "headerHex": "0xE4",
+        "size": 7646,
+        "declaredSize": 7646,
+        "entropy": "7.974",
+        "patterns": [
+          "36.8% ASCII-like"
+        ],
+        "readableContent": [
+          "l`zl8",
+          "v7%sR",
+          " \"{w/",
+          "C3N^^",
+          "6,o<Q"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 163,
+        "header": 151,
+        "headerHex": "0x97",
+        "size": 5076,
+        "declaredSize": 5076,
+        "entropy": "7.962",
+        "patterns": [
+          "35.9% ASCII-like"
+        ],
+        "readableContent": [
+          "w]^N<A",
+          "39fUD",
+          "la3zS",
+          "@srBW\\v",
+          "M&[vQ"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 164,
+        "header": 177,
+        "headerHex": "0xB1",
+        "size": 4551,
+        "declaredSize": 4551,
+        "entropy": "7.959",
+        "patterns": [
+          "35.8% ASCII-like"
+        ],
+        "readableContent": [
+          ".b9~Q",
+          "&]H >",
+          "vg3ZvU",
+          "PX8ao",
+          "cCS%%S"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 165,
+        "header": 0,
+        "headerHex": "0x0",
+        "size": 6220,
+        "declaredSize": 6220,
+        "entropy": "7.971",
+        "patterns": [
+          "37.2% ASCII-like"
+        ],
+        "readableContent": [
+          "f@Sl7g",
+          "\"5qG\"-",
+          "1[,5l",
+          "GgDj<",
+          "wU[H5"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 166,
+        "header": 191,
+        "headerHex": "0xBF",
+        "size": 1490,
+        "declaredSize": 1490,
+        "entropy": "7.877",
+        "patterns": [
+          "38.1% ASCII-like"
+        ],
+        "readableContent": [
+          "6.'sX'_",
+          "F\"0EE",
+          "wG%dt",
+          "R*kT\\",
+          "!XL1b:"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 167,
+        "header": 81,
+        "headerHex": "0x51",
+        "size": 3937,
+        "declaredSize": 3937,
+        "entropy": "7.948",
+        "patterns": [
+          "Contains null sequences",
+          "37.1% ASCII-like"
+        ],
+        "readableContent": [
+          "F.T5T7d(",
+          "}[bbj",
+          "\\.1Ldo",
+          "5,_V6",
+          "\"S\"rzx7"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 168,
+        "header": 234,
+        "headerHex": "0xEA",
+        "size": 5740,
+        "declaredSize": 5740,
+        "entropy": "7.965",
+        "patterns": [
+          "38.0% ASCII-like"
+        ],
+        "readableContent": [
+          "vUt%a0",
+          "+(_Wz",
+          "RwfY6",
+          "LC4{p",
+          "zD3%k"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 169,
+        "header": 240,
+        "headerHex": "0xF0",
+        "size": 498,
+        "declaredSize": 498,
+        "entropy": "7.616",
+        "patterns": [
+          "37.6% ASCII-like"
+        ],
+        "readableContent": [
+          "?R's(@9",
+          "jX8+I",
+          "/oS\"[",
+          "Tj^Uw"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 170,
+        "header": 3,
+        "headerHex": "0x3",
+        "size": 4691,
+        "declaredSize": 4691,
+        "entropy": "7.958",
+        "patterns": [
+          "36.2% ASCII-like"
+        ],
+        "readableContent": [
+          "e+&}_<",
+          " 6yGs",
+          "2-V u",
+          "i/BO`",
+          "LNljN"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 171,
+        "header": 144,
+        "headerHex": "0x90",
+        "size": 6194,
+        "declaredSize": 6194,
+        "entropy": "7.967",
+        "patterns": [
+          "37.1% ASCII-like"
+        ],
+        "readableContent": [
+          "3W7_75",
+          "E&s*r",
+          "(zT}J`0",
+          "';`/Ob0",
+          "/i#<j"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 172,
+        "header": 65,
+        "headerHex": "0x41",
+        "size": 4127,
+        "declaredSize": 4127,
+        "entropy": "7.950",
+        "patterns": [
+          "37.5% ASCII-like"
+        ],
+        "readableContent": [
+          "Wd}[[",
+          "3-X;-",
+          "'WLn/u",
+          "\\l4x;",
+          "cbw5!u"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 173,
+        "header": 142,
+        "headerHex": "0x8E",
+        "size": 4477,
+        "declaredSize": 4477,
+        "entropy": "7.962",
+        "patterns": [
+          "37.2% ASCII-like"
+        ],
+        "readableContent": [
+          "|^?#u?",
+          "SF`m'",
+          "B]WOh",
+          "Vqzvv",
+          "-I-&gPc"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 174,
+        "header": 34,
+        "headerHex": "0x22",
+        "size": 2176,
+        "declaredSize": 2176,
+        "entropy": "7.903",
+        "patterns": [
+          "36.3% ASCII-like"
+        ],
+        "readableContent": [
+          "=yU\"QW",
+          "c|7GC'",
+          "N.bD%",
+          "jzDzj",
+          "[QWsF"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 175,
+        "header": 70,
+        "headerHex": "0x46",
+        "size": 579,
+        "declaredSize": 579,
+        "entropy": "7.619",
+        "patterns": [
+          "35.8% ASCII-like"
+        ],
+        "readableContent": [
+          "^sZm_C",
+          "rOu/o",
+          "(X$VSd"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 176,
+        "header": 146,
+        "headerHex": "0x92",
+        "size": 7606,
+        "declaredSize": 7606,
+        "entropy": "7.977",
+        "patterns": [
+          "37.7% ASCII-like"
+        ],
+        "readableContent": [
+          "'&;Km",
+          "'O1`t",
+          "<o5`L",
+          "ka[7V",
+          "wu0zB"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 177,
+        "header": 149,
+        "headerHex": "0x95",
+        "size": 4684,
+        "declaredSize": 4684,
+        "entropy": "7.959",
+        "patterns": [
+          "36.6% ASCII-like"
+        ],
+        "readableContent": [
+          "h_;jH",
+          "fHVm4",
+          "&g.le>",
+          ";z~''",
+          "ltB!p/"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 178,
+        "header": 158,
+        "headerHex": "0x9E",
+        "size": 3511,
+        "declaredSize": 3511,
+        "entropy": "7.948",
+        "patterns": [
+          "35.7% ASCII-like"
+        ],
+        "readableContent": [
+          "Arc~}",
+          "7bybD",
+          "^_E#9",
+          "bagT]",
+          "^Gcm_"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 179,
+        "header": 138,
+        "headerHex": "0x8A",
+        "size": 2974,
+        "declaredSize": 2974,
+        "entropy": "7.935",
+        "patterns": [
+          "36.4% ASCII-like"
+        ],
+        "readableContent": [
+          "HMI,w",
+          "`thpI.",
+          "kP`@L",
+          "^']tw",
+          "QSP(aL"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 180,
+        "header": 212,
+        "headerHex": "0xD4",
+        "size": 3654,
+        "declaredSize": 3654,
+        "entropy": "7.950",
+        "patterns": [
+          "37.1% ASCII-like"
+        ],
+        "readableContent": [
+          ",E\\s}Tl?(",
+          "[B*hzo",
+          "bN<Sk-U",
+          "TSLqU2",
+          "c:QZ~2"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 181,
+        "header": 246,
+        "headerHex": "0xF6",
+        "size": 3192,
+        "declaredSize": 3192,
+        "entropy": "7.954",
+        "patterns": [
+          "35.8% ASCII-like"
+        ],
+        "readableContent": [
+          "qb0&5",
+          "?~QrZ",
+          "1^qoM/",
+          "j#hXE",
+          "Xs]9Ixz"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 182,
+        "header": 1,
+        "headerHex": "0x1",
+        "size": 2486,
+        "declaredSize": 2486,
+        "entropy": "7.932",
+        "patterns": [
+          "35.7% ASCII-like"
+        ],
+        "readableContent": [
+          "LL`Te}",
+          "(Ch:)",
+          "&H1.mx",
+          "u8S,k",
+          "pY C{d"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 183,
+        "header": 245,
+        "headerHex": "0xF5",
+        "size": 551,
+        "declaredSize": 551,
+        "entropy": "7.621",
+        "patterns": [
+          "38.8% ASCII-like"
+        ],
+        "readableContent": [
+          "%l=8#V(@R",
+          "cA113&",
+          "@sWkv",
+          "|$&shM",
+          "Pc .&=r"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 184,
+        "header": 142,
+        "headerHex": "0x8E",
+        "size": 402,
+        "declaredSize": 402,
+        "entropy": "7.493",
+        "patterns": [
+          "38.6% ASCII-like"
+        ],
+        "readableContent": [
+          "ACc$CMB",
+          ">qr/fc"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 185,
+        "header": 197,
+        "headerHex": "0xC5",
+        "size": 2172,
+        "declaredSize": 2172,
+        "entropy": "7.897",
+        "patterns": [
+          "36.9% ASCII-like"
+        ],
+        "readableContent": [
+          "n/B6]",
+          "]sxPaw",
+          "QO[vb",
+          "FBdZTj",
+          "v&2i\""
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 186,
+        "header": 33,
+        "headerHex": "0x21",
+        "size": 5210,
+        "declaredSize": 5210,
+        "entropy": "7.965",
+        "patterns": [
+          "39.0% ASCII-like"
+        ],
+        "readableContent": [
+          "dSLn!",
+          "{@wDN",
+          "4-x7S",
+          "JYPwkh",
+          "AV:Q_6"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 187,
+        "header": 185,
+        "headerHex": "0xB9",
+        "size": 3029,
+        "declaredSize": 3029,
+        "entropy": "7.942",
+        "patterns": [
+          "36.6% ASCII-like"
+        ],
+        "readableContent": [
+          ".mO*aD",
+          "5&O.)",
+          "rk6cB",
+          "%<md-t",
+          "lKBV]"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 188,
+        "header": 198,
+        "headerHex": "0xC6",
+        "size": 7132,
+        "declaredSize": 7132,
+        "entropy": "7.974",
+        "patterns": [
+          "37.7% ASCII-like"
+        ],
+        "readableContent": [
+          "J8G8x4f",
+          ")i\\F74",
+          "6$<xu",
+          "uSFf ",
+          "NC%b8"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 189,
+        "header": 216,
+        "headerHex": "0xD8",
+        "size": 6648,
+        "declaredSize": 6648,
+        "entropy": "7.974",
+        "patterns": [
+          "37.7% ASCII-like"
+        ],
+        "readableContent": [
+          "'?nr_",
+          "hT:O7:",
+          "JxzU5",
+          "'$1M.c$O",
+          "$uU?;"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 190,
+        "header": 151,
+        "headerHex": "0x97",
+        "size": 2083,
+        "declaredSize": 2083,
+        "entropy": "7.910",
+        "patterns": [
+          "39.0% ASCII-like"
+        ],
+        "readableContent": [
+          "{Q49+8",
+          "iQO2qe`",
+          "x4$}X",
+          ")r:|B",
+          "=mSU>"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 191,
+        "header": 212,
+        "headerHex": "0xD4",
+        "size": 3706,
+        "declaredSize": 3706,
+        "entropy": "7.945",
+        "patterns": [
+          "36.8% ASCII-like"
+        ],
+        "readableContent": [
+          "2_6e0w$,",
+          "F=yc:",
+          "[}A}0",
+          "GB4Tb",
+          "\"k>9%"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 192,
+        "header": 182,
+        "headerHex": "0xB6",
+        "size": 7731,
+        "declaredSize": 7731,
+        "entropy": "7.977",
+        "patterns": [
+          "37.1% ASCII-like"
+        ],
+        "readableContent": [
+          "+tYV4Y",
+          "*n}Pvg",
+          "Cq`iK",
+          "\"N_/:Y",
+          "n{b<6"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 193,
+        "header": 94,
+        "headerHex": "0x5E",
+        "size": 3243,
+        "declaredSize": 3243,
+        "entropy": "7.939",
+        "patterns": [
+          "36.7% ASCII-like"
+        ],
+        "readableContent": [
+          "_o[%6B",
+          "!fo:Pa",
+          "`_((A",
+          "(LEdm",
+          ")Oyid"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 194,
+        "header": 244,
+        "headerHex": "0xF4",
+        "size": 627,
+        "declaredSize": 627,
+        "entropy": "7.662",
+        "patterns": [
+          "38.4% ASCII-like"
+        ],
+        "readableContent": [
+          "`q7eg"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 195,
+        "header": 21,
+        "headerHex": "0x15",
+        "size": 4442,
+        "declaredSize": 4442,
+        "entropy": "7.953",
+        "patterns": [
+          "Contains null sequences",
+          "35.7% ASCII-like"
+        ],
+        "readableContent": [
+          "8Nd[Rl",
+          "&!*UC",
+          "t_LdH",
+          "R_>U`n",
+          "&,wBS"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 196,
+        "header": 116,
+        "headerHex": "0x74",
+        "size": 3569,
+        "declaredSize": 3569,
+        "entropy": "7.944",
+        "patterns": [
+          "Contains null sequences",
+          "37.3% ASCII-like"
+        ],
+        "readableContent": [
+          "9Rg;N",
+          "U%OV=",
+          "\"FUr[",
+          "itC&u=",
+          "Q# 7q"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 197,
+        "header": 45,
+        "headerHex": "0x2D",
+        "size": 6388,
+        "declaredSize": 6388,
+        "entropy": "7.972",
+        "patterns": [
+          "Contains null sequences",
+          "37.1% ASCII-like"
+        ],
+        "readableContent": [
+          ")`]<l",
+          "=(EgT",
+          "V\\=.HOx~",
+          "x;Lfa2",
+          "<eX>)["
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 198,
+        "header": 207,
+        "headerHex": "0xCF",
+        "size": 4885,
+        "declaredSize": 4885,
+        "entropy": "7.966",
+        "patterns": [
+          "35.9% ASCII-like"
+        ],
+        "readableContent": [
+          "@*`#1",
+          "y@Jkz",
+          "8jMg\"",
+          "k6kHf",
+          "BX@A,"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 199,
+        "header": 72,
+        "headerHex": "0x48",
+        "size": 5837,
+        "declaredSize": 5837,
+        "entropy": "7.968",
+        "patterns": [
+          "36.6% ASCII-like"
+        ],
+        "readableContent": [
+          "[W5op3",
+          "t!t]N",
+          "^{h!-",
+          "H5j-[L",
+          "'`z!`"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 200,
+        "header": 147,
+        "headerHex": "0x93",
+        "size": 5690,
+        "declaredSize": 5690,
+        "entropy": "7.965",
+        "patterns": [
+          "37.6% ASCII-like"
+        ],
+        "readableContent": [
+          "TaIC<",
+          "{f_<k",
+          "u*G,\"",
+          "Z=([g2",
+          "#:Wo{*48"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 201,
+        "header": 46,
+        "headerHex": "0x2E",
+        "size": 4321,
+        "declaredSize": 4321,
+        "entropy": "7.956",
+        "patterns": [
+          "37.7% ASCII-like"
+        ],
+        "readableContent": [
+          ". h>Um\\-O",
+          "?nh?@_",
+          "\"\"Jt`",
+          "PE~:p",
+          "X:3cmq"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 202,
+        "header": 53,
+        "headerHex": "0x35",
+        "size": 7712,
+        "declaredSize": 7712,
+        "entropy": "7.975",
+        "patterns": [
+          "37.3% ASCII-like"
+        ],
+        "readableContent": [
+          ")iLz,?",
+          "r?I#V",
+          "PJI=r",
+          "j/qG3",
+          "4rA^8"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 203,
+        "header": 151,
+        "headerHex": "0x97",
+        "size": 5174,
+        "declaredSize": 5174,
+        "entropy": "7.960",
+        "patterns": [
+          "37.2% ASCII-like"
+        ],
+        "readableContent": [
+          "3'3qO",
+          "|K'f,,-JFG",
+          "u?Oqf",
+          "8?HYs",
+          "g;mkhS"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 204,
+        "header": 42,
+        "headerHex": "0x2A",
+        "size": 6502,
+        "declaredSize": 6502,
+        "entropy": "7.973",
+        "patterns": [
+          "38.0% ASCII-like"
+        ],
+        "readableContent": [
+          "\"pjd(Z",
+          "8xd$>",
+          "JV%.v",
+          "M:=aO0",
+          "15!&:"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 205,
+        "header": 83,
+        "headerHex": "0x53",
+        "size": 3892,
+        "declaredSize": 3892,
+        "entropy": "7.947",
+        "patterns": [
+          "37.0% ASCII-like"
+        ],
+        "readableContent": [
+          "SkU($",
+          "by4}+",
+          "XY^y{",
+          "A&A0.S",
+          "whyQ;-"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 206,
+        "header": 191,
+        "headerHex": "0xBF",
+        "size": 5301,
+        "declaredSize": 5301,
+        "entropy": "7.969",
+        "patterns": [
+          "36.0% ASCII-like"
+        ],
+        "readableContent": [
+          "*7:oy",
+          "tsWf4-",
+          "lC\\d!",
+          "H_H|5",
+          "P2>D]"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 207,
+        "header": 115,
+        "headerHex": "0x73",
+        "size": 7799,
+        "declaredSize": 7799,
+        "entropy": "7.978",
+        "patterns": [
+          "37.4% ASCII-like"
+        ],
+        "readableContent": [
+          "QC60;",
+          "b_5UQ9",
+          "33[p5#<",
+          "&N56q",
+          "[`pgv"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 208,
+        "header": 95,
+        "headerHex": "0x5F",
+        "size": 2693,
+        "declaredSize": 2693,
+        "entropy": "7.931",
+        "patterns": [
+          "39.5% ASCII-like"
+        ],
+        "readableContent": [
+          "\"G@#!l",
+          "}56'}",
+          "Js~K7b",
+          "\"i?bn",
+          "U$ZIa"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 209,
+        "header": 195,
+        "headerHex": "0xC3",
+        "size": 2661,
+        "declaredSize": 2661,
+        "entropy": "7.922",
+        "patterns": [
+          "38.2% ASCII-like"
+        ],
+        "readableContent": [
+          "MLItZ(",
+          " +=#N",
+          "BrFh)",
+          "_Me+JW",
+          "O;X\"6"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 210,
+        "header": 12,
+        "headerHex": "0xC",
+        "size": 499,
+        "declaredSize": 499,
+        "entropy": "7.597",
+        "patterns": [
+          "37.5% ASCII-like"
+        ],
+        "readableContent": [
+          "izza+"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 211,
+        "header": 150,
+        "headerHex": "0x96",
+        "size": 3533,
+        "declaredSize": 3533,
+        "entropy": "7.944",
+        "patterns": [
+          "36.6% ASCII-like"
+        ],
+        "readableContent": [
+          ">Lk@Z",
+          "#G:A`",
+          "MP:sA",
+          "\\KE1Y",
+          "3Qe]P2j"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 212,
+        "header": 250,
+        "headerHex": "0xFA",
+        "size": 2861,
+        "declaredSize": 2861,
+        "entropy": "7.938",
+        "patterns": [
+          "36.9% ASCII-like"
+        ],
+        "readableContent": [
+          "8~_kcJ(",
+          "2$i\\0",
+          "rZ-XW",
+          "Gyjv=",
+          "x~DV="
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 213,
+        "header": 125,
+        "headerHex": "0x7D",
+        "size": 2387,
+        "declaredSize": 2387,
+        "entropy": "7.925",
+        "patterns": [
+          "37.3% ASCII-like"
+        ],
+        "readableContent": [
+          "n]S:^",
+          "evdy:",
+          "ZtLM%#D",
+          "&p;|D",
+          "43hha"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 214,
+        "header": 214,
+        "headerHex": "0xD6",
+        "size": 61,
+        "declaredSize": 61,
+        "entropy": "5.734",
+        "patterns": [
+          "41.0% ASCII-like"
+        ],
+        "readableContent": [],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 215,
+        "header": 245,
+        "headerHex": "0xF5",
+        "size": 5559,
+        "declaredSize": 5559,
+        "entropy": "7.962",
+        "patterns": [
+          "37.2% ASCII-like"
+        ],
+        "readableContent": [
+          "dk:}s",
+          "]dhCP",
+          "vgO)m",
+          "I`IwL",
+          "Ld?qW]@o^"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 216,
+        "header": 71,
+        "headerHex": "0x47",
+        "size": 6747,
+        "declaredSize": 6747,
+        "entropy": "7.973",
+        "patterns": [
+          "36.8% ASCII-like"
+        ],
+        "readableContent": [
+          "\"4;/x",
+          "-~&-V",
+          "8w7n@5",
+          "EF/I^_7",
+          "c-o^ "
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 217,
+        "header": 30,
+        "headerHex": "0x1E",
+        "size": 7752,
+        "declaredSize": 7752,
+        "entropy": "7.975",
+        "patterns": [
+          "37.3% ASCII-like"
+        ],
+        "readableContent": [
+          "ov:&!R/|",
+          ".onX5",
+          "Q[M:-t",
+          "RgN0Y",
+          "E[rbr"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 218,
+        "header": 209,
+        "headerHex": "0xD1",
+        "size": 6304,
+        "declaredSize": 6304,
+        "entropy": "7.972",
+        "patterns": [
+          "Contains null sequences",
+          "36.9% ASCII-like"
+        ],
+        "readableContent": [
+          "envkItE",
+          "pQx&~n",
+          "`7zWp|",
+          "&t)1>R",
+          "bjLgz?QLwE"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 219,
+        "header": 80,
+        "headerHex": "0x50",
+        "size": 4415,
+        "declaredSize": 4415,
+        "entropy": "7.962",
+        "patterns": [
+          "37.2% ASCII-like"
+        ],
+        "readableContent": [
+          "f=*xE",
+          "1pgoC",
+          "mG!c}",
+          "TC\"^%Lr",
+          "AZ%ZU"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 220,
+        "header": 72,
+        "headerHex": "0x48",
+        "size": 1529,
+        "declaredSize": 1529,
+        "entropy": "7.871",
+        "patterns": [
+          "36.8% ASCII-like"
+        ],
+        "readableContent": [
+          ")0nS';",
+          "f86kiI"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 221,
+        "header": 195,
+        "headerHex": "0xC3",
+        "size": 5170,
+        "declaredSize": 5170,
+        "entropy": "7.962",
+        "patterns": [
+          "37.0% ASCII-like"
+        ],
+        "readableContent": [
+          "SDrY\"",
+          "fG<)D",
+          "_nlT_",
+          "r izb",
+          "us~5c$'"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 222,
+        "header": 227,
+        "headerHex": "0xE3",
+        "size": 6007,
+        "declaredSize": 6007,
+        "entropy": "7.971",
+        "patterns": [
+          "37.0% ASCII-like"
+        ],
+        "readableContent": [
+          "b&ca(?~sz",
+          "m0|\\g\\",
+          "'D$q2",
+          "y,2E|)",
+          "mgnrZ"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 223,
+        "header": 249,
+        "headerHex": "0xF9",
+        "size": 2552,
+        "declaredSize": 2552,
+        "entropy": "7.927",
+        "patterns": [
+          "37.0% ASCII-like"
+        ],
+        "readableContent": [
+          "W|<YedA",
+          "Sk3 }",
+          "p0bXPH",
+          ")x)[m",
+          "oO6Fl"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 224,
+        "header": 206,
+        "headerHex": "0xCE",
+        "size": 3041,
+        "declaredSize": 3041,
+        "entropy": "7.944",
+        "patterns": [
+          "35.3% ASCII-like"
+        ],
+        "readableContent": [
+          "1XO-{[",
+          "b=mcu7",
+          "hMG{b",
+          "VP!UK",
+          "nG9xL"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 225,
+        "header": 93,
+        "headerHex": "0x5D",
+        "size": 6007,
+        "declaredSize": 6007,
+        "entropy": "7.964",
+        "patterns": [
+          "36.6% ASCII-like"
+        ],
+        "readableContent": [
+          "9IFWVD",
+          ">tT!|LQ",
+          "pjRJS?",
+          "G,lFx&",
+          "^n@qX{"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 226,
+        "header": 108,
+        "headerHex": "0x6C",
+        "size": 6996,
+        "declaredSize": 6996,
+        "entropy": "7.972",
+        "patterns": [
+          "37.5% ASCII-like"
+        ],
+        "readableContent": [
+          "1\"_Zr",
+          ">'`D|T",
+          ".P>}_",
+          "@!Xtg",
+          ";VHa|"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 227,
+        "header": 240,
+        "headerHex": "0xF0",
+        "size": 1735,
+        "declaredSize": 1735,
+        "entropy": "7.890",
+        "patterns": [
+          "37.5% ASCII-like"
+        ],
+        "readableContent": [
+          "QlpXB7",
+          "cN'`+",
+          "%->rc%@I",
+          "D-mYlZp",
+          "4ZyMJ"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 228,
+        "header": 33,
+        "headerHex": "0x21",
+        "size": 3934,
+        "declaredSize": 3934,
+        "entropy": "7.952",
+        "patterns": [
+          "36.2% ASCII-like"
+        ],
+        "readableContent": [
+          "XuYSTo9",
+          "7xind",
+          "\\<I{)",
+          "cU6P^",
+          "-p6-\\"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 229,
+        "header": 133,
+        "headerHex": "0x85",
+        "size": 6093,
+        "declaredSize": 6093,
+        "entropy": "7.969",
+        "patterns": [
+          "Contains null sequences",
+          "36.9% ASCII-like"
+        ],
+        "readableContent": [
+          "FA]L9|Y",
+          "BWt]d",
+          "pvP{x",
+          ",v@>f",
+          "HOq~,k"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 230,
+        "header": 39,
+        "headerHex": "0x27",
+        "size": 1021,
+        "declaredSize": 1021,
+        "entropy": "7.796",
+        "patterns": [
+          "36.6% ASCII-like"
+        ],
+        "readableContent": [
+          "KT4jC",
+          "i(El!",
+          "=\\xPY",
+          "ytP'+",
+          "nm019"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 231,
+        "header": 132,
+        "headerHex": "0x84",
+        "size": 4819,
+        "declaredSize": 4819,
+        "entropy": "7.964",
+        "patterns": [
+          "37.1% ASCII-like"
+        ],
+        "readableContent": [
+          "vO{#ldw",
+          "B;*5UT",
+          "nf_K*a",
+          "i?t|}",
+          "v>$*c"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 232,
+        "header": 224,
+        "headerHex": "0xE0",
+        "size": 6114,
+        "declaredSize": 6114,
+        "entropy": "7.972",
+        "patterns": [
+          "36.8% ASCII-like"
+        ],
+        "readableContent": [
+          "[PLz'",
+          "%%rl0",
+          "+{egP",
+          "?|`aI",
+          "yQUG\\"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 233,
+        "header": 6,
+        "headerHex": "0x6",
+        "size": 982,
+        "declaredSize": 982,
+        "entropy": "7.810",
+        "patterns": [
+          "37.7% ASCII-like"
+        ],
+        "readableContent": [
+          "%,.*-u",
+          "'dY*e6",
+          ">gG5.",
+          ",9):9;z",
+          "O9mv}"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 234,
+        "header": 77,
+        "headerHex": "0x4D",
+        "size": 2300,
+        "declaredSize": 2300,
+        "entropy": "7.924",
+        "patterns": [
+          "36.4% ASCII-like"
+        ],
+        "readableContent": [
+          "0.KM#",
+          "slCxj:w'z",
+          "f+`m~",
+          "k}Rb3",
+          "%16u>"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 235,
+        "header": 9,
+        "headerHex": "0x9",
+        "size": 7313,
+        "declaredSize": 7313,
+        "entropy": "7.971",
+        "patterns": [
+          "36.9% ASCII-like"
+        ],
+        "readableContent": [
+          "*Y*V;",
+          "/I&'C",
+          "6=VQB",
+          "<1>.<",
+          "{y{6iM"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 236,
+        "header": 159,
+        "headerHex": "0x9F",
+        "size": 7636,
+        "declaredSize": 7636,
+        "entropy": "7.978",
+        "patterns": [
+          "36.7% ASCII-like"
+        ],
+        "readableContent": [
+          "uChwY[",
+          "gf8LP",
+          "AD8\\zgN",
+          "'W+yW",
+          "z>)*ob"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 237,
+        "header": 24,
+        "headerHex": "0x18",
+        "size": 5587,
+        "declaredSize": 5587,
+        "entropy": "7.969",
+        "patterns": [
+          "36.5% ASCII-like"
+        ],
+        "readableContent": [
+          "JR\"icK",
+          "Zx`RpZ",
+          "B,Wx,",
+          "rr6j0",
+          "3NIus"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 238,
+        "header": 66,
+        "headerHex": "0x42",
+        "size": 7006,
+        "declaredSize": 7006,
+        "entropy": "7.974",
+        "patterns": [
+          "Contains null sequences",
+          "36.6% ASCII-like"
+        ],
+        "readableContent": [
+          "lI8p8P",
+          "MH*Ko",
+          "U!**,",
+          ")oJ8s@=",
+          "q`Tf4"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 239,
+        "header": 88,
+        "headerHex": "0x58",
+        "size": 6788,
+        "declaredSize": 6788,
+        "entropy": "7.976",
+        "patterns": [
+          "Contains null sequences",
+          "37.9% ASCII-like"
+        ],
+        "readableContent": [
+          "fpMZ!",
+          "\\J\\Z>8f",
+          "=<,8[",
+          "g R}+",
+          "] Xp!"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 240,
+        "header": 180,
+        "headerHex": "0xB4",
+        "size": 4487,
+        "declaredSize": 4487,
+        "entropy": "7.957",
+        "patterns": [
+          "37.4% ASCII-like"
+        ],
+        "readableContent": [
+          "2LBXO+')",
+          "b.:ux",
+          "_,)q[",
+          "^|,jP%P",
+          "/~]4B$"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 241,
+        "header": 170,
+        "headerHex": "0xAA",
+        "size": 4555,
+        "declaredSize": 4555,
+        "entropy": "7.961",
+        "patterns": [
+          "36.6% ASCII-like"
+        ],
+        "readableContent": [
+          "RV\"TX",
+          "D{2Mp[3WP",
+          "yL0$w",
+          "sf8,K",
+          ">G9h&"
+        ],
+        "possibleFormat": "Standard Aetheric Engine format"
+      },
+      {
+        "id": 242,
+        "header": 159,
+        "headerHex": "0x9F",
+        "size": 2111,
+        "declaredSize": 2111,
+        "entropy": "7.915",
+        "patterns": [
+          "38.0% ASCII-like"
+        ],
+        "readableContent": [
+          "dc+'W1X",
+          "QDdN1",
+          "n/%jX-",
+          "8R/)z",
+          "Sm/@R}"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 243,
+        "header": 137,
+        "headerHex": "0x89",
+        "size": 1643,
+        "declaredSize": 1643,
+        "entropy": "7.862",
+        "patterns": [
+          "35.8% ASCII-like"
+        ],
+        "readableContent": [
+          "Dwi/>p)",
+          "DBT9Z",
+          "7j!8#5",
+          "[~%_2",
+          "kGVGc"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 244,
+        "header": 62,
+        "headerHex": "0x3E",
+        "size": 4121,
+        "declaredSize": 4121,
+        "entropy": "7.952",
+        "patterns": [
+          "35.7% ASCII-like"
+        ],
+        "readableContent": [
+          "BtGu7",
+          "f)t3S",
+          ">.W%n!",
+          ",Vzt>",
+          "j}x+f"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 245,
+        "header": 72,
+        "headerHex": "0x48",
+        "size": 6379,
+        "declaredSize": 6379,
+        "entropy": "7.975",
+        "patterns": [
+          "36.6% ASCII-like"
+        ],
+        "readableContent": [
+          "WW~YL",
+          "IXU A",
+          "*eQOO",
+          "uM)j`J!M",
+          "m[n,O"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 246,
+        "header": 30,
+        "headerHex": "0x1E",
+        "size": 2125,
+        "declaredSize": 2125,
+        "entropy": "7.915",
+        "patterns": [
+          "37.7% ASCII-like"
+        ],
+        "readableContent": [
+          "okqwep",
+          "MApvx",
+          "~.0h+",
+          "=%1iF",
+          "$'1+-%/I"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 247,
+        "header": 170,
+        "headerHex": "0xAA",
+        "size": 5408,
+        "declaredSize": 5408,
+        "entropy": "7.965",
+        "patterns": [
+          "37.5% ASCII-like"
+        ],
+        "readableContent": [
+          "5.\">}U^",
+          "?w3j!",
+          "^ta@@Z",
+          ")5P?A(Ws",
+          "=XFSS"
+        ],
+        "possibleFormat": "Standard Aetheric Engine format"
+      },
+      {
+        "id": 248,
+        "header": 129,
+        "headerHex": "0x81",
+        "size": 6470,
+        "declaredSize": 6470,
+        "entropy": "7.970",
+        "patterns": [
+          "Contains null sequences",
+          "37.0% ASCII-like"
+        ],
+        "readableContent": [
+          "}r1N'",
+          "|rm[UK",
+          "$-6pa^",
+          "[KSw6",
+          "'%+=C"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 249,
+        "header": 136,
+        "headerHex": "0x88",
+        "size": 3086,
+        "declaredSize": 3086,
+        "entropy": "7.946",
+        "patterns": [
+          "36.0% ASCII-like"
+        ],
+        "readableContent": [
+          "8:EeQRv<",
+          "(|7rr2",
+          "7w(o$",
+          ")3P3im+WPAp",
+          "zXKda"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 250,
+        "header": 150,
+        "headerHex": "0x96",
+        "size": 2278,
+        "declaredSize": 2278,
+        "entropy": "7.920",
+        "patterns": [
+          "36.0% ASCII-like"
+        ],
+        "readableContent": [
+          "SD=}9=P",
+          "vXXYT]",
+          "^yMVT",
+          "<)%F%",
+          "GOa0U"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 251,
+        "header": 199,
+        "headerHex": "0xC7",
+        "size": 6917,
+        "declaredSize": 6917,
+        "entropy": "7.969",
+        "patterns": [
+          "36.6% ASCII-like"
+        ],
+        "readableContent": [
+          "UjmeCx",
+          "zHl)E8q",
+          "PYK[%I",
+          "I~EZo",
+          "-IB+9"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 252,
+        "header": 115,
+        "headerHex": "0x73",
+        "size": 7760,
+        "declaredSize": 7760,
+        "entropy": "7.980",
+        "patterns": [
+          "Contains null sequences",
+          "37.5% ASCII-like"
+        ],
+        "readableContent": [
+          "5\\9O-",
+          ".LIXZh9*",
+          "1)A*e",
+          ";: 3<C",
+          "V87?#:"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 253,
+        "header": 191,
+        "headerHex": "0xBF",
+        "size": 5979,
+        "declaredSize": 5979,
+        "entropy": "7.969",
+        "patterns": [
+          "36.2% ASCII-like"
+        ],
+        "readableContent": [
+          "rlA\"V",
+          "'.y*G",
+          "zrQ+*",
+          "\\dIGb0",
+          "n +Ds?We"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 254,
+        "header": 102,
+        "headerHex": "0x66",
+        "size": 121,
+        "declaredSize": 121,
+        "entropy": "6.603",
+        "patterns": [
+          "38.8% ASCII-like"
+        ],
+        "readableContent": [],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 255,
+        "header": 236,
+        "headerHex": "0xEC",
+        "size": 5503,
+        "declaredSize": 5503,
+        "entropy": "7.965",
+        "patterns": [
+          "37.4% ASCII-like"
+        ],
+        "readableContent": [
+          "?J6:1<",
+          "y/6%l/",
+          "4:cjv",
+          ":RqPt",
+          "xLIlT"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 256,
+        "header": 131,
+        "headerHex": "0x83",
+        "size": 2692,
+        "declaredSize": 2692,
+        "entropy": "7.929",
+        "patterns": [
+          "36.4% ASCII-like"
+        ],
+        "readableContent": [
+          "@~i)J",
+          "DmGQZoa",
+          "2LgUO",
+          "M&r9o"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 257,
+        "header": 1,
+        "headerHex": "0x1",
+        "size": 2347,
+        "declaredSize": 2347,
+        "entropy": "7.915",
+        "patterns": [
+          "38.0% ASCII-like"
+        ],
+        "readableContent": [
+          "3_b]H",
+          ";#=<G",
+          "\"h;f&",
+          "8.bbn",
+          "FEuHm1f"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 258,
+        "header": 178,
+        "headerHex": "0xB2",
+        "size": 5175,
+        "declaredSize": 5175,
+        "entropy": "7.963",
+        "patterns": [
+          "37.3% ASCII-like"
+        ],
+        "readableContent": [
+          ".!}mr",
+          "ft379",
+          "5~1t&",
+          "m V9-",
+          "tTITn"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 259,
+        "header": 121,
+        "headerHex": "0x79",
+        "size": 4850,
+        "declaredSize": 4850,
+        "entropy": "7.957",
+        "patterns": [
+          "38.2% ASCII-like"
+        ],
+        "readableContent": [
+          "^*QcMV",
+          "G:Ee_*",
+          "x0(U.",
+          " \"4%s",
+          " +(aR"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 260,
+        "header": 84,
+        "headerHex": "0x54",
+        "size": 5267,
+        "declaredSize": 5267,
+        "entropy": "7.962",
+        "patterns": [
+          "Contains null sequences",
+          "37.8% ASCII-like"
+        ],
+        "readableContent": [
+          "*zaU8;",
+          "r<<;(",
+          "A[6,h",
+          ":+\"UI",
+          "M~RP@m$"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 261,
+        "header": 252,
+        "headerHex": "0xFC",
+        "size": 6522,
+        "declaredSize": 6522,
+        "entropy": "7.974",
+        "patterns": [
+          "38.0% ASCII-like"
+        ],
+        "readableContent": [
+          "4-z1o",
+          "gq+=;",
+          "}H:}'",
+          "e}l<XTbZ",
+          "r<wY0e3k"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 262,
+        "header": 161,
+        "headerHex": "0xA1",
+        "size": 1228,
+        "declaredSize": 1228,
+        "entropy": "7.850",
+        "patterns": [
+          "37.3% ASCII-like"
+        ],
+        "readableContent": [
+          "SgeTj",
+          "'k<vE",
+          ";=|lS",
+          "aVI5U",
+          "m.n)zm/"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 263,
+        "header": 27,
+        "headerHex": "0x1B",
+        "size": 2150,
+        "declaredSize": 2150,
+        "entropy": "7.902",
+        "patterns": [
+          "38.3% ASCII-like"
+        ],
+        "readableContent": [
+          "L-df|t",
+          "+h2LYq",
+          "\"npR,",
+          "tTx/6DF",
+          "+@Cq~I"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 264,
+        "header": 220,
+        "headerHex": "0xDC",
+        "size": 476,
+        "declaredSize": 476,
+        "entropy": "7.613",
+        "patterns": [
+          "35.1% ASCII-like"
+        ],
+        "readableContent": [
+          "fKYeA",
+          "s@r9A"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 265,
+        "header": 26,
+        "headerHex": "0x1A",
+        "size": 6791,
+        "declaredSize": 6791,
+        "entropy": "7.974",
+        "patterns": [
+          "37.6% ASCII-like"
+        ],
+        "readableContent": [
+          "y9z-.AH",
+          "])JVfY",
+          "_(S%0",
+          "[c{5(",
+          "mDhNN0TZ#"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 266,
+        "header": 12,
+        "headerHex": "0xC",
+        "size": 2363,
+        "declaredSize": 2363,
+        "entropy": "7.930",
+        "patterns": [
+          "36.8% ASCII-like"
+        ],
+        "readableContent": [
+          "z]RrG",
+          "*$s%^",
+          "t\\7O\"",
+          "ysU${",
+          "yb3$T"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 267,
+        "header": 79,
+        "headerHex": "0x4F",
+        "size": 3865,
+        "declaredSize": 3865,
+        "entropy": "7.956",
+        "patterns": [
+          "36.5% ASCII-like"
+        ],
+        "readableContent": [
+          "yhCM !",
+          "0>5D>",
+          "`F^Fx",
+          "Va4yu",
+          "9:~t)Pj"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 268,
+        "header": 237,
+        "headerHex": "0xED",
+        "size": 3156,
+        "declaredSize": 3156,
+        "entropy": "7.939",
+        "patterns": [
+          "37.9% ASCII-like"
+        ],
+        "readableContent": [
+          "}jR0Q",
+          "m^9c?g",
+          "`C<xM99",
+          "J5x.B",
+          "B)=,G"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 269,
+        "header": 42,
+        "headerHex": "0x2A",
+        "size": 1167,
+        "declaredSize": 1167,
+        "entropy": "7.864",
+        "patterns": [
+          "35.5% ASCII-like"
+        ],
+        "readableContent": [
+          "&?<u`+",
+          "=F$=d",
+          "mW-kq"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 270,
+        "header": 35,
+        "headerHex": "0x23",
+        "size": 5905,
+        "declaredSize": 5905,
+        "entropy": "7.975",
+        "patterns": [
+          "37.5% ASCII-like"
+        ],
+        "readableContent": [
+          ";ZB0#",
+          "Vf/bj7P",
+          "<EQWN",
+          "Kn~X3",
+          "{!qkt"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 271,
+        "header": 134,
+        "headerHex": "0x86",
+        "size": 4207,
+        "declaredSize": 4207,
+        "entropy": "7.956",
+        "patterns": [
+          "37.7% ASCII-like"
+        ],
+        "readableContent": [
+          "Z4C)U",
+          "m`8j>#",
+          "n\";lF",
+          ".z/t2",
+          "F<=rS"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 272,
+        "header": 92,
+        "headerHex": "0x5C",
+        "size": 3398,
+        "declaredSize": 3398,
+        "entropy": "7.942",
+        "patterns": [
+          "36.4% ASCII-like"
+        ],
+        "readableContent": [
+          "n~J_ad",
+          "ZSMU+s",
+          "N/G\\U",
+          "/6NEm",
+          "T@8<6`"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 273,
+        "header": 154,
+        "headerHex": "0x9A",
+        "size": 5451,
+        "declaredSize": 5451,
+        "entropy": "7.969",
+        "patterns": [
+          "36.9% ASCII-like"
+        ],
+        "readableContent": [
+          "THa\"5",
+          "F;Ro)",
+          "$`(54A~",
+          "#\"G)g",
+          "/~{do"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 274,
+        "header": 64,
+        "headerHex": "0x40",
+        "size": 981,
+        "declaredSize": 981,
+        "entropy": "7.821",
+        "patterns": [
+          "37.6% ASCII-like"
+        ],
+        "readableContent": [
+          "9uC\\w"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      },
+      {
+        "id": 275,
+        "header": 138,
+        "headerHex": "0x8A",
+        "size": 6438,
+        "declaredSize": 6438,
+        "entropy": "7.967",
+        "patterns": [
+          "36.9% ASCII-like"
+        ],
+        "readableContent": [
+          "#@Ugq_",
+          "%>$H[",
+          "*Bv|7",
+          "#)AAx",
+          ":WM}k;+"
+        ],
+        "possibleFormat": "Mixed binary/text format"
+      }
+    ],
+    "protocolDeviations": [
+      {
+        "id": 151,
+        "header": "0x48",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 152,
+        "header": "0x44",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 153,
+        "header": "0x93",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 154,
+        "header": "0x34",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 155,
+        "header": "0x8",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 156,
+        "header": "0xF7",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 157,
+        "header": "0xE8",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 158,
+        "header": "0xB1",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 159,
+        "header": "0x2C",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 160,
+        "header": "0x90",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 161,
+        "header": "0x8E",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 162,
+        "header": "0xE4",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 163,
+        "header": "0x97",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 164,
+        "header": "0xB1",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 165,
+        "header": "0x0",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 166,
+        "header": "0xBF",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 167,
+        "header": "0x51",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 168,
+        "header": "0xEA",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 169,
+        "header": "0xF0",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 170,
+        "header": "0x3",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 171,
+        "header": "0x90",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 172,
+        "header": "0x41",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 173,
+        "header": "0x8E",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 174,
+        "header": "0x22",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 175,
+        "header": "0x46",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 176,
+        "header": "0x92",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 177,
+        "header": "0x95",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 178,
+        "header": "0x9E",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 179,
+        "header": "0x8A",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 180,
+        "header": "0xD4",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 181,
+        "header": "0xF6",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 182,
+        "header": "0x1",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 183,
+        "header": "0xF5",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 184,
+        "header": "0x8E",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 185,
+        "header": "0xC5",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 186,
+        "header": "0x21",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 187,
+        "header": "0xB9",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 188,
+        "header": "0xC6",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 189,
+        "header": "0xD8",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 190,
+        "header": "0x97",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 191,
+        "header": "0xD4",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 192,
+        "header": "0xB6",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 193,
+        "header": "0x5E",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 194,
+        "header": "0xF4",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 195,
+        "header": "0x15",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 196,
+        "header": "0x74",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 197,
+        "header": "0x2D",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 198,
+        "header": "0xCF",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 199,
+        "header": "0x48",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 200,
+        "header": "0x93",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 201,
+        "header": "0x2E",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 202,
+        "header": "0x35",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 203,
+        "header": "0x97",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 204,
+        "header": "0x2A",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 205,
+        "header": "0x53",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 206,
+        "header": "0xBF",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 207,
+        "header": "0x73",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 208,
+        "header": "0x5F",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 209,
+        "header": "0xC3",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 210,
+        "header": "0xC",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 211,
+        "header": "0x96",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 212,
+        "header": "0xFA",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 213,
+        "header": "0x7D",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 214,
+        "header": "0xD6",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 215,
+        "header": "0xF5",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 216,
+        "header": "0x47",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 217,
+        "header": "0x1E",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 218,
+        "header": "0xD1",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 219,
+        "header": "0x50",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 220,
+        "header": "0x48",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 221,
+        "header": "0xC3",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 222,
+        "header": "0xE3",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 223,
+        "header": "0xF9",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 224,
+        "header": "0xCE",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 225,
+        "header": "0x5D",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 226,
+        "header": "0x6C",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 227,
+        "header": "0xF0",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 228,
+        "header": "0x21",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 229,
+        "header": "0x85",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 230,
+        "header": "0x27",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 231,
+        "header": "0x84",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 232,
+        "header": "0xE0",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 233,
+        "header": "0x6",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 234,
+        "header": "0x4D",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 235,
+        "header": "0x9",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 236,
+        "header": "0x9F",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 237,
+        "header": "0x18",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 238,
+        "header": "0x42",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 239,
+        "header": "0x58",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 240,
+        "header": "0xB4",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 242,
+        "header": "0x9F",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 243,
+        "header": "0x89",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 244,
+        "header": "0x3E",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 245,
+        "header": "0x48",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 246,
+        "header": "0x1E",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 248,
+        "header": "0x81",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 249,
+        "header": "0x88",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 250,
+        "header": "0x96",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 251,
+        "header": "0xC7",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 252,
+        "header": "0x73",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 253,
+        "header": "0xBF",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 254,
+        "header": "0x66",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 255,
+        "header": "0xEC",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 256,
+        "header": "0x83",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 257,
+        "header": "0x1",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 258,
+        "header": "0xB2",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 259,
+        "header": "0x79",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 260,
+        "header": "0x54",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 261,
+        "header": "0xFC",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 262,
+        "header": "0xA1",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 263,
+        "header": "0x1B",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 264,
+        "header": "0xDC",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 265,
+        "header": "0x1A",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 266,
+        "header": "0xC",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 267,
+        "header": "0x4F",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 268,
+        "header": "0xED",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 269,
+        "header": "0x2A",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 270,
+        "header": "0x23",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 271,
+        "header": "0x86",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 272,
+        "header": "0x5C",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 273,
+        "header": "0x9A",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 274,
+        "header": "0x40",
+        "issue": "Non-standard header"
+      },
+      {
+        "id": 275,
+        "header": "0x8A",
+        "issue": "Non-standard header"
+      }
+    ],
+    "suspiciousPatterns": []
+  },
+  "recommendations": [
+    "Investigate why messages deviate from documented protocol",
+    "Check TCP client parsing logic for errors",
+    "Analyze if messages are encoded/encrypted",
+    "Look for alternative protocol documentation",
+    "Consider that this might be the real intended format"
+  ]
+}

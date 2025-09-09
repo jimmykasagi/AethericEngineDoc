@@ -9,7 +9,10 @@
     "dev": "nodemon server.js",
     "stats": "node cli.js stats",
     "clear": "node cli.js clear",
-    "cli": "node cli.js"
+    "cli": "node cli.js",
+    "analyze-binary": "node binary_analyzer.js",
+    "reconstruct": "node fragment_reconstructor.js",
+    "analyze-suite": "node binary_analysis_suite.js"
   },
   "keywords": ["aetheric-engine", "tcp-client", "websocket", "sqlite"],
   "author": "AI-Assisted",
