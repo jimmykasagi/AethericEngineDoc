@@ -316,15 +316,15 @@ async function main() {
     // Check if we have data to validate
     const totalMessages = await validator.db.getTotalMessageCount();
 
-    if (totalMessages === 0) {
-      console.log(
-        "No messages found in database. Generating sample data for demonstration..."
-      );
-      await validator.generateSampleData();
-    }
+    // if (totalMessages === 0) {
+    //   console.log(
+    //     "No messages found in database. Generating sample data for demonstration..."
+    //   );
+    //   await validator.generateSampleData();
+    // }
 
     // Demonstrate parsing capabilities
-    await validator.demonstrateMessageParsing();
+    // await validator.demonstrateMessageParsing();
 
     // Validate stored messages
     await validator.validateStoredMessages();

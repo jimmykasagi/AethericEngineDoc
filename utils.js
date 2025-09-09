@@ -14,26 +14,26 @@ function processAsciiMessage(rawMessage) {
     throw new Error("Invalid ASCII message: missing start or end marker");
   }
 
-  if (rawMessage.length < 7) {
-    // minimum: '$' + 5 chars + ';'
-    throw new Error("Invalid ASCII message: payload too short");
-  }
+  //   if (rawMessage.length < 7) {
+  //     // minimum: '$' + 5 chars + ';'
+  //     throw new Error("Invalid ASCII message: payload too short");
+  //   }
 
   // Extract payload (everything between '$' and ';')
   const payload = rawMessage.slice(1, -1);
 
   // Validate payload contains only printable ASCII (excluding '$' and ';')
-  for (let i = 0; i < payload.length; i++) {
-    const char = payload[i];
-    const code = char.charCodeAt(0);
+  //   for (let i = 0; i < payload.length; i++) {
+  //     const char = payload[i];
+  //     const code = char.charCodeAt(0);
 
-    // Check if printable ASCII (32-126) and not '$' or ';'
-    if (code < 32 || code > 126 || char === "$" || char === ";") {
-      throw new Error(
-        `Invalid ASCII message: invalid character in payload at position ${i}`
-      );
-    }
-  }
+  //     // Check if printable ASCII (32-126) and not '$' or ';'
+  //     if (code < 32 || code > 126 || char === "$" || char === ";") {
+  //       throw new Error(
+  //         `Invalid ASCII message: invalid character in payload at position ${i}`
+  //       );
+  //     }
+  //   }
 
   return {
     type: "ascii",
@@ -75,13 +75,13 @@ function processBinaryMessage(buffer) {
     payloadSize += sizeBytes[i] * Math.pow(256, i);
   }
 
-  if (buffer.length < 6 + payloadSize) {
-    throw new Error(
-      `Invalid binary message: insufficient payload data (expected ${payloadSize}, got ${
-        buffer.length - 6
-      })`
-    );
-  }
+  //   if (buffer.length < 6 + payloadSize) {
+  //     throw new Error(
+  //       `Invalid binary message: insufficient payload data (expected ${payloadSize}, got ${
+  //         buffer.length - 6
+  //       })`
+  //     );
+  //   }
 
   const payload = buffer.slice(6, 6 + payloadSize);
 
