@@ -21,7 +21,7 @@ class AethericEngineClient {
     this.db = new DatabaseManager();
     this.parser = new MessageParser();
     this.collecting = false;
-    this.targetMessageCount = 600;
+    this.targetMessageCount = 1000;
     this.isConnected = false;
 
     // Statistics

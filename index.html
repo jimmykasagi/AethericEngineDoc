@@ -243,10 +243,11 @@
             <button class="btn" id="disconnectBtn" disabled>Disconnect</button>
             <button class="btn" id="resetBtn">Reset</button>
             <button class="btn" id="clearLogBtn">Clear Log</button>
+            <button class="btn" id="exportLogBtn">Export Log</button>
         </div>
 
         <div class="progress-bar">
-            <div class="progress-fill" id="progressBar" style="width: 0%">0 / 600 messages</div>
+            <div class="progress-fill" id="progressBar" style="width: 0%">0 / 1000 messages</div>
         </div>
 
         <div class="status-panel">
@@ -324,6 +325,7 @@
                     disconnectBtn: document.getElementById('disconnectBtn'),
                     resetBtn: document.getElementById('resetBtn'),
                     clearLogBtn: document.getElementById('clearLogBtn'),
+                    exportLogBtn: document.getElementById('exportLogBtn'),
                     progressBar: document.getElementById('progressBar'),
                     connectionStatus: document.getElementById('connectionStatus'),
                     collectionStatus: document.getElementById('collectionStatus'),
@@ -342,6 +344,7 @@
                 this.elements.disconnectBtn.addEventListener('click', () => this.stopCollection());
                 this.elements.resetBtn.addEventListener('click', () => this.resetCollection());
                 this.elements.clearLogBtn.addEventListener('click', () => this.clearLog());
+                this.elements.exportLogBtn.addEventListener('click', () => this.exportLog());
             }
 
             connectWebSocket() {
@@ -486,7 +489,7 @@
 
             updateProgress() {
                 const total = this.stats.totalMessages || 0;
-                const target = 600;
+                const target = 1000;
                 const percentage = Math.min((total / target) * 100, 100);
                 
                 this.elements.progressBar.style.width = percentage + '%';
@@ -523,6 +526,35 @@
             clearLog() {
                 this.elements.logContainer.innerHTML = '';
                 this.log('status', 'Log cleared');
+            }
+
+            exportLog() {
+                const logEntries = this.elements.logContainer.children;
+                let logContent = '=== Aetheric Engine Activity Log Export ===\n';
+                logContent += `Exported on: ${new Date().toLocaleString()}\n`;
+                logContent += `Total entries: ${logEntries.length}\n`;
+                logContent += '=' .repeat(50) + '\n\n';
+
+                for (let entry of logEntries) {
+                    const timestamp = entry.querySelector('.timestamp').textContent;
+                    const message = entry.querySelector('span:last-child').textContent;
+                    const type = entry.className.match(/log-(\w+)/)?.[1] || 'unknown';
+                    
+                    logContent += `[${timestamp}] [${type.toUpperCase()}] ${message}\n`;
+                }
+
+                // Create and download the file
+                const blob = new Blob([logContent], { type: 'text/plain' });
+                const url = window.URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = `aetheric_engine_log_${new Date().toISOString().replace(/[:.]/g, '-')}.txt`;
+                document.body.appendChild(a);
+                a.click();
+                document.body.removeChild(a);
+                window.URL.revokeObjectURL(url);
+
+                this.log('status', `Log exported to ${a.download}`);
             }
 
             log(type, message) {

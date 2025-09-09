@@ -47,7 +47,7 @@ This project implements a TCP client that connects to the Aetheric Engine (AE) s
 - **Buffer Management**: Efficient TCP stream buffering
 - **Error Recovery**: Graceful error handling and recovery
 - **Statistics Tracking**: Real-time collection statistics
-- **Auto-stop**: Automatically stops after collecting 600+ messages
+- **Auto-stop**: Automatically stops after collecting 1000+ messages
 
 ## Installation
 
@@ -203,7 +203,7 @@ The web interface (`index.html`) provides:
 
 ### Real-time Statistics
 - Connection status
-- Collection progress (0-600 messages)
+- Collection progress (0-1000 messages)
 - Message counts by type
 - Error tracking
 

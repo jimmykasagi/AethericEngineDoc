@@ -40,7 +40,7 @@ In the smog-choked skies of Oshikai, the Aetheric Engine ("AE") hummed to life b
 
 - You can find table schema suggestion below. Feel free to improve them as they may be inadequate.
 
-- You may stop when you have collected 600 messages or more.
+- You may stop when you have collected 1000 messages or more.
 
 - Ideally, your solution shall include an independent app to validate that your TCP client had correctly parsed all the ASCII and binary messages.
 
