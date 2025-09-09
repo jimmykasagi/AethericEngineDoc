@@ -1,0 +1,86 @@
+<!-- AI-Assisted: Initial Bootstrap UI for Aetheric Engine TCP Client -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Aetheric Engine TCP Client</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container py-4">
+    <h1 class="mb-4">Aetheric Engine TCP Client</h1>
+    <div class="mb-3">
+      <button id="startBtn" class="btn btn-success me-2">Start</button>
+      <button id="stopBtn" class="btn btn-danger me-2">Stop</button>
+      <button id="resetBtn" class="btn btn-secondary">Reset</button>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <h4>Raw Data Received</h4>
+        <div id="rawData" class="border p-2" style="height: 400px; overflow-y: auto; background: #f8f9fa;"></div>
+      </div>
+      <div class="col-md-6">
+        <h4>Parsed Payload</h4>
+        <div id="parsedPayload" class="border p-2" style="height: 400px; overflow-y: auto; background: #f8f9fa;"></div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    // WebSocket connection to backend
+    let ws;
+    function connectWS() {
+      ws = new WebSocket('ws://localhost:8080');
+      ws.onopen = () => {
+        console.log('WebSocket connected');
+      };
+      ws.onmessage = (event) => {
+        const msg = JSON.parse(event.data);
+        if (msg.type === 'ascii') {
+          addMessage('rawData', msg.data.raw);
+          addMessage('parsedPayload', msg.data.payload);
+        } else if (msg.type === 'binary') {
+          addMessage('rawData', msg.data.raw);
+          addMessage('parsedPayload', msg.data.payload);
+        } else if (msg.type === 'status') {
+          addMessage('rawData', `[STATUS] ${msg.data}`);
+        } else if (msg.type === 'reset') {
+          document.getElementById('rawData').innerHTML = '';
+          document.getElementById('parsedPayload').innerHTML = '';
+        }
+      };
+      ws.onclose = () => {
+        console.log('WebSocket disconnected');
+      };
+    }
+
+    function sendAction(action) {
+      if (ws && ws.readyState === WebSocket.OPEN) {
+        ws.send(JSON.stringify({ action }));
+      }
+    }
+
+    function addMessage(id, msg) {
+      const el = document.getElementById(id);
+      const div = document.createElement('div');
+      div.textContent = msg;
+      el.appendChild(div);
+      el.scrollTop = el.scrollHeight;
+    }
+
+    document.getElementById('startBtn').onclick = function() {
+      sendAction('start');
+    };
+    document.getElementById('stopBtn').onclick = function() {
+      sendAction('stop');
+    };
+    document.getElementById('resetBtn').onclick = function() {
+      sendAction('reset');
+    };
+
+    // Connect WebSocket on page load
+    window.onload = connectWS;
+  </script>
+</body>
+</html>
