@@ -275,11 +275,22 @@ class AethericEngineClient {
   async stopTcpConnection() {
     if (this.tcpClient) {
       this.collecting = false;
-      this.tcpClient.end();
-      this.broadcast("status", {
-        collecting: false,
-        message: "TCP connection stopped",
-      });
+      // Drain the TCP pipe before disconnecting
+      if (this.tcpClient.writableLength > 0) {
+        this.tcpClient.once("drain", () => {
+          this.tcpClient.end();
+          this.broadcast("status", {
+            collecting: false,
+            message: "TCP connection stopped (drained)",
+          });
+        });
+      } else {
+        this.tcpClient.end();
+        this.broadcast("status", {
+          collecting: false,
+          message: "TCP connection stopped",
+        });
+      }
     }
   }
 
