@@ -120,7 +120,7 @@
             border: 2px solid #8b6914;
             border-radius: 10px;
             padding: 20px;
-            height: 400px;
+            height: 600px;
             overflow-y: auto;
             margin-bottom: 20px;
         }
@@ -281,24 +281,32 @@
 
         <div class="message-details">
             <div class="message-panel">
-                <h3>Latest ASCII Message</h3>
-                <div class="message-sample ascii-sample" id="latestAscii">No ASCII messages yet...</div>
-            </div>
-            <div class="message-panel">
                 <h3>Latest Binary Message</h3>
                 <div class="message-sample binary-sample" id="latestBinary">No binary messages yet...</div>
             </div>
-        </div>
 
-        <div class="log-panel">
-            <h2>📜 Activity Log</h2>
-            <div id="logContainer">
-                <div class="log-entry log-status">
-                    <span class="timestamp">--:--:--</span>
-                    <span>Aetheric Engine Monitor initialized. Ready to connect...</span>
+            <!-- <div class="message-panel">
+                <h3>Latest ASCII Message</h3>
+                <div class="message-sample ascii-sample" id="latestAscii">No ASCII messages yet...</div>
+            </div> -->
+
+            <div class="log-panel">
+                <h2>📜 Activity Log</h2>
+                <div id="logContainer">
+                    <div class="log-entry log-status">
+                        <span class="timestamp">--:--:--</span>
+                        <span>Aetheric Engine Monitor initialized. Ready to connect...</span>
+                    </div>
                 </div>
             </div>
+            
+            <!-- <div class="message-panel">
+                <h3>Latest Binary Message</h3>
+                <div class="message-sample binary-sample" id="latestBinary">No binary messages yet...</div>
+            </div> -->
         </div>
+
+        
     </div>
 
     <script>
@@ -420,7 +428,8 @@
                 this.updateStatistics(this.stats);
                 this.updateProgress();
                 
-                this.elements.latestAscii.textContent = `Raw: ${data.raw}\nPayload: "${data.payload}"`;
+                this.elements.latestAscii.textContent = `Raw: ${data.raw}`;
+                // this.elements.latestAscii.textContent = `Raw: ${data.raw}\nPayload: "${data.payload}"`;
                 this.log('ascii', `ASCII message #${data.count}: "${data.payload}"`);
             }
 

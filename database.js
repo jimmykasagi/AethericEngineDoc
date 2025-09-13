@@ -76,12 +76,12 @@ class DatabaseManager {
     });
   }
 
-  async insertBinaryMessage(payload, size) {
+  async insertBinaryMessage(payload) {
     return new Promise((resolve, reject) => {
       const stmt = this.db.prepare(
-        "INSERT INTO msgbinary (payload, size) VALUES (?, ?)"
+        "INSERT INTO msgbinary (payload) VALUES (?)"
       );
-      stmt.run([payload, size], function (err) {
+      stmt.run([payload], function (err) {
         if (err) {
           reject(err);
           return;

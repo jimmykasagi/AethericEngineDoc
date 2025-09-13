@@ -192,27 +192,66 @@ class AethericEngineClient {
   }
 
   async handleTcpData(data) {
-    this.parser.addData(data);
-    const messages = this.parser.parseMessages();
+    // Heuristic: ASCII message starts with '$' and ends with ';', binary starts with 0xAA or 0xBB
+    try {
+      if (data.length > 0 && (data[0] === 0xaa || data[0] === 0xbb)) {
+        // Binary message
+        await this.db.insertBinaryMessage(data);
+        this.stats.binaryMessages++;
+        this.broadcast("binary", {
+          size: data.length,
+          payloadHex: data.toString("hex"),
+          count: this.stats.binaryMessages,
+        });
+      } else {
+        // Try to decode as ASCII message
+        let asciiPayload;
+        try {
+          asciiPayload = data.toString("ascii");
+        } catch {
+          asciiPayload = data.toString("hex");
+        }
+        // Check for ASCII message markers
+        if (asciiPayload.startsWith("$") && asciiPayload.endsWith(";")) {
+          await this.db.insertAsciiMessage(asciiPayload);
+          this.stats.asciiMessages++;
+          this.broadcast("ascii", {
+            raw: asciiPayload,
+            count: this.stats.asciiMessages,
+          });
+        } else {
+          // Unknown format, save to binary table for safety
+          await this.db.insertBinaryMessage(data);
+          this.stats.binaryMessages++;
+          this.broadcast("binary", {
+            size: data.length,
+            payloadHex: data.toString("hex"),
+            count: this.stats.binaryMessages,
+          });
+        }
+      }
 
-    for (const message of messages) {
-      await this.processMessage(message);
-    }
+      this.stats.totalMessages++;
 
-    // Check if we've collected enough messages
-    if (
-      this.collecting &&
-      this.stats.totalMessages >= this.targetMessageCount
-    ) {
-      console.log(
-        `Collected ${this.targetMessageCount} messages, sending STATUS`
-      );
-      this.collecting = false;
-      this.tcpClient.write("STATUS");
-      this.broadcast("status", {
-        collecting: false,
-        message: `Collected ${this.targetMessageCount} messages, sent STATUS command`,
-      });
+      // Check if we've collected enough messages
+      if (
+        this.collecting &&
+        this.stats.totalMessages >= this.targetMessageCount
+      ) {
+        console.log(
+          `Collected ${this.targetMessageCount} messages, sending STATUS`
+        );
+        this.collecting = false;
+        this.tcpClient.write("STATUS");
+        this.broadcast("status", {
+          collecting: false,
+          message: `Collected ${this.targetMessageCount} messages, sent STATUS command`,
+        });
+      }
+    } catch (error) {
+      console.error("Raw data saving error:", error);
+      this.stats.errors++;
+      this.broadcast("error", `Failed to save raw data: ${error.message}`);
     }
   }
 
@@ -227,7 +266,7 @@ class AethericEngineClient {
           count: this.stats.asciiMessages,
         });
       } else if (message.type === "binary") {
-        await this.db.insertBinaryMessage(message.payload, message.size);
+        await this.db.insertBinaryMessage(message.payload);
         this.stats.binaryMessages++;
         this.broadcast("binary", {
           headerHex: message.headerHex,

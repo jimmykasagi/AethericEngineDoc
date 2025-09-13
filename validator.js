@@ -296,7 +296,7 @@ class MessageValidator {
     // Insert some sample binary messages
     for (let i = 0; i < 5; i++) {
       const payload = Buffer.from([0x01, 0x02, 0x03, 0x04, 0x05 + i]);
-      await this.db.insertBinaryMessage(payload, payload.length);
+      await this.db.insertBinaryMessage(payload);
     }
 
     console.log("Sample data generated successfully");
